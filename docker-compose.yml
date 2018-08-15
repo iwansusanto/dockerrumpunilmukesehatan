@@ -33,6 +33,7 @@ services:
                 container_name: mysqlrik
                 volumes:
                         - ./public:/var/www/html  
+                        - ./mysql/data:/var/lib/mysql
                 environment:
                         MYSQL_ROOT_PASSWORD: adm1n
                         MYSQL_DATABASE: ijd
