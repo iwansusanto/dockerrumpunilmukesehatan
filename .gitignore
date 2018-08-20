@@ -2,4 +2,4 @@ public/*
 !public/index.php
 test/*
 !logs/
-!db/
+!db
